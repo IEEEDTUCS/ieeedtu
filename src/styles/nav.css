@@ -1,0 +1,12 @@
+.nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav{
+        flex-direction: row;
+    }
+  }
