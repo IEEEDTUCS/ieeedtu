@@ -1,30 +1,51 @@
-body {
+:root{
+  font-size: 16px;
+}
+
+* {
+  --cultured: #F5F5F5;
+  --platinum: #E5E5E5;
+  --smoky-black: #0D0D09;
+  --light-cornflower-blue: #8ECAE6;
+  --blue-green: #219EBC;
+  --blue-sapphire: #126782;
+  --prussian-blue: #023047;
+  --oxford-blue: #14213D;
+  --honey-yellow: #FFB703;
+  --orange-peel: #FD9E02;
+  --orange: #FB8500;
+  --orange-web: #FCA311;
+  transition: 200ms;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: var(--smoky-black);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--orange-web);
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 #root{
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 2fr 10fr;
-  grid-template-rows: auto;
-  grid-template-areas: 'nav main';
+  display: flex;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   #root{
-    grid-template-columns: auto;
-    grid-template-rows: 11fr 1fr;
-    grid-template-areas: 'main'
-    'nav';
+    flex-direction: column-reverse;
   }
 }

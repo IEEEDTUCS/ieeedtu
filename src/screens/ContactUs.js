@@ -6,5 +6,4 @@ const ContactUs = (props) => {
   </>);
 }
   
-  export default ContactUs;
-  
+export default ContactUs;

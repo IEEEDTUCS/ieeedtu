@@ -1,0 +1,15 @@
+.home{
+    background-image: url('../images/home-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.modal{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(13, 13, 9, 0.35);  
+    height: 100%;
+    overflow-y: scroll;
+}
