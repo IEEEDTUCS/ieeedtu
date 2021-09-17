@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ieeedtu/static/css/main.c6647a4b.chunk.css",
-    "main.js": "/ieeedtu/static/js/main.39b5fb65.chunk.js",
-    "main.js.map": "/ieeedtu/static/js/main.39b5fb65.chunk.js.map",
+    "main.css": "/ieeedtu/static/css/main.123970c4.chunk.css",
+    "main.js": "/ieeedtu/static/js/main.f9c8fffe.chunk.js",
+    "main.js.map": "/ieeedtu/static/js/main.f9c8fffe.chunk.js.map",
     "runtime-main.js": "/ieeedtu/static/js/runtime-main.1759ad20.js",
     "runtime-main.js.map": "/ieeedtu/static/js/runtime-main.1759ad20.js.map",
-    "static/js/2.ea25ddcf.chunk.js": "/ieeedtu/static/js/2.ea25ddcf.chunk.js",
-    "static/js/2.ea25ddcf.chunk.js.map": "/ieeedtu/static/js/2.ea25ddcf.chunk.js.map",
+    "static/js/2.030e6d9b.chunk.js": "/ieeedtu/static/js/2.030e6d9b.chunk.js",
+    "static/js/2.030e6d9b.chunk.js.map": "/ieeedtu/static/js/2.030e6d9b.chunk.js.map",
     "index.html": "/ieeedtu/index.html",
-    "static/css/main.c6647a4b.chunk.css.map": "/ieeedtu/static/css/main.c6647a4b.chunk.css.map",
-    "static/js/2.ea25ddcf.chunk.js.LICENSE.txt": "/ieeedtu/static/js/2.ea25ddcf.chunk.js.LICENSE.txt"
+    "static/css/main.123970c4.chunk.css.map": "/ieeedtu/static/css/main.123970c4.chunk.css.map",
+    "static/js/2.030e6d9b.chunk.js.LICENSE.txt": "/ieeedtu/static/js/2.030e6d9b.chunk.js.LICENSE.txt",
+    "static/media/IEEE_DTU_Logo_Transparent_White.9957dd1f.svg": "/ieeedtu/static/media/IEEE_DTU_Logo_Transparent_White.9957dd1f.svg",
+    "static/media/home.css": "/ieeedtu/static/media/home-hero.985a45cf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1759ad20.js",
-    "static/js/2.ea25ddcf.chunk.js",
-    "static/css/main.c6647a4b.chunk.css",
-    "static/js/main.39b5fb65.chunk.js"
+    "static/js/2.030e6d9b.chunk.js",
+    "static/css/main.123970c4.chunk.css",
+    "static/js/main.f9c8fffe.chunk.js"
   ]
 }
