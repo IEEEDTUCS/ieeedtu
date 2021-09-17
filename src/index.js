@@ -8,7 +8,7 @@ import Nav from './components/Nav';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename='/'>
+    <HashRouter>
       <Nav />
       <Main />
     </HashRouter>

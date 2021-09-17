@@ -7,8 +7,6 @@ import Council from "../screens/Council";
 import Events from "../screens/Events";
 import Home from "../screens/Home";
 
-
-
 const Main = (props) => {
   return (<>
     <div className='main'>
