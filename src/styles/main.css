@@ -7,7 +7,7 @@
   height: 100vh;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .main {
     margin-left: 0;
     margin-bottom: 5rem;

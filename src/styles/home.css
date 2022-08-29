@@ -80,11 +80,12 @@
   border-color: var(--smoky-black);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .chapter-list {
     margin-top: 2rem;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding-bottom: 2rem;
   }
 }

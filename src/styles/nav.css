@@ -59,6 +59,7 @@
     height: 5rem;
     overflow-x: scroll;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .nav-item {
     width: 3rem;
