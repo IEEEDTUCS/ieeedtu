@@ -1,20 +1,26 @@
-:root{
+:root {
   font-size: 16px;
 }
 
 * {
-  --cultured: #F5F5F5;
-  --platinum: #E5E5E5;
-  --smoky-black: #0D0D09;
-  --light-cornflower-blue: #8ECAE6;
-  --blue-green: #219EBC;
+  --cultured: #f5f5f5;
+  --platinum: #e5e5e5;
+  --smoky-black: #0d0d09;
+  --light-cornflower-blue: #8ecae6;
+  --blue-green: #219ebc;
   --blue-sapphire: #126782;
   --prussian-blue: #023047;
-  --oxford-blue: #14213D;
-  --honey-yellow: #FFB703;
-  --orange-peel: #FD9E02;
-  --orange: #FB8500;
-  --orange-web: #FCA311;
+  --oxford-blue: #14213d;
+  --honey-yellow: #ffb703;
+  --orange-peel: #fd9e02;
+  --orange: #fb8500;
+  --orange-web: #fca311;
+  --text-primary: white;
+  --text-secondary: #6649b8;
+  --text-tertiary: #e086d3;
+  --bg-primary: #23232e;
+  --bg-secondary: #2e2e38;
+  --bg-scrollbar: #e086d3;
   transition: 200ms;
   margin: 0;
   padding: 0;
@@ -31,21 +37,21 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-#root{
+#root {
   display: flex;
 }
 
 @media screen and (max-width: 900px) {
-  #root{
+  #root {
     flex-direction: column-reverse;
   }
 }
